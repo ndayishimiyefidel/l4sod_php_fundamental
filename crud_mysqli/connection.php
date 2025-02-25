@@ -1,6 +1,6 @@
 <?php
 //db connection properties
-
+session_start();
 $hostName = "localhost";
 $userName = "root";
 $userPassword = "";

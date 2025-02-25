@@ -10,6 +10,6 @@ if (isset($_GET["deleteId"])) {
     if (!$sql) {
         echo "Error deleting record: " . mysqli_error($cnx);
     } else {
-        header("Location: index.php"); // redirect to the list of users after deletion
+        header("Location: alluser.php"); // redirect to the list of users after deletion
     }
 }
